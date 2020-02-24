@@ -1,0 +1,6 @@
+node_modules
+node_modules/*
+LCSCWorkoutApp/node_modules
+LCSCWorkoutApp/node_modules/*
+LCSCWorkoutApp/build
+LCSCWorkoutApp/build/*
