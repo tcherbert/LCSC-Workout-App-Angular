@@ -4,3 +4,4 @@ LCSCWorkoutApp/node_modules
 LCSCWorkoutApp/node_modules/*
 LCSCWorkoutApp/build
 LCSCWorkoutApp/build/*
+backend/PHP/sftp-config.json
