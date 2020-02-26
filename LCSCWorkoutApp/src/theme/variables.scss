@@ -89,8 +89,12 @@
   --ion-color-lightred-shade: #e00003;
   --ion-color-lightred-tint: #ff1a1c;
 
-
-
+  --ion-color-red:#D02027;
+  --ion-color-red-rgb: 172,0,2;
+  --ion-color-red-contrast: #ffffff;
+  --ion-color-red-contrast-rgb: 255,255,255;
+  --ion-color-red-shade: #D02027;
+  --ion-color-red-tint: #D02027;
 
   --ion-background-color: #D02027;
   --ion-font-family: 'Open Sans', sans-serif;
@@ -111,6 +115,14 @@
   --ion-color-contrast-rgb: var(--ion-color-lightred-contrast-rgb);
   --ion-color-shade: var(--ion-color-lightred-shade);
   --ion-color-tint: var(--ion-color-lightred-tint);
+}
+.ion-color-red {
+  --ion-color-base: var(--ion-color-red);
+  --ion-color-base-rgb: var(--ion-color-red-rgb);
+  --ion-color-contrast: var(--ion-color-red-contrast);
+  --ion-color-contrast-rgb: var(--ion-color-red-contrast-rgb);
+  --ion-color-shade: var(--ion-color-red-shade);
+  --ion-color-tint: var(--ion-color-red-tint);
 }
 
 /* Home Page*/
@@ -160,6 +172,13 @@ input.native-input {
   line-height: 50px;
   border: 8px solid #AC0002;
 }
+
+.navButton{
+  width: 100%;
+  font-size:150%;
+  color: white;
+}
+
 
 @media (prefers-color-scheme: dark) {
   /*
