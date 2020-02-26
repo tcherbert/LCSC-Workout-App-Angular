@@ -90,12 +90,75 @@
   --ion-color-lightred-tint: #ff1a1c;
 
 
+
+
   --ion-background-color: #D02027;
   --ion-font-family: 'Open Sans', sans-serif;
 }
+.ion-color-darkred {
+  --ion-color-base: var(--ion-color-darkred);
+  --ion-color-base-rgb: var(--ion-color-darkred-rgb);
+  --ion-color-contrast: var(--ion-color-darkred-contrast);
+  --ion-color-contrast-rgb: var(--ion-color-darkred-contrast-rgb);
+  --ion-color-shade: var(--ion-color-darkred-shade);
+  --ion-color-tint: var(--ion-color-darkred-tint);
+}
 
-ion-button{
-  width: 100%;
+.ion-color-lightred {
+  --ion-color-base: var(--ion-color-lightred);
+  --ion-color-base-rgb: var(--ion-color-lightred-rgb);
+  --ion-color-contrast: var(--ion-color-lightred-contrast);
+  --ion-color-contrast-rgb: var(--ion-color-lightred-contrast-rgb);
+  --ion-color-shade: var(--ion-color-lightred-shade);
+  --ion-color-tint: var(--ion-color-lightred-tint);
+}
+
+/* Home Page*/
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 700px;
+}
+.centerLogo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 500px;
+}
+.logo{
+  max-width: 75px;
+  float: left;
+
+}
+input.native-input {
+  width: 100% !important;
+  padding: 12px 20px !important;
+  margin: 8px 0 !important;
+  display: inline-block !important;
+  border: 1px solid #ccc !important;
+  box-sizing: border-box !important;
+  background: #ffffff !important;
+}
+
+input.native-input {
+  background: #ffffff;
+  color: #333;
+  border-radius: 15px !important;
+  padding: 3px 15px;
+  margin: 0px 0px 10px 0px;
+  line-height: 50px;
+  border: 8px solid #AC0002 !important;
+}
+
+.native-input.sc-ion-input-md {
+  background: #ffffff;
+  color: #333;
+  border-radius: 15px;
+  padding: 3px 15px;
+  margin: 0px 0px 10px 0px;
+  line-height: 50px;
+  border: 8px solid #AC0002;
 }
 
 @media (prefers-color-scheme: dark) {

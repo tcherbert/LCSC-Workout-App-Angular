@@ -1,7 +1,7 @@
 <ion-app>
-  <ion-menu side="start" content-id="main-content">
+  <ion-menu side="end" content-id="main">
     <ion-header>
-      <ion-toolbar translucent>
+      <ion-toolbar>
         <ion-title>Navigation</ion-title>
       </ion-toolbar>
     </ion-header>
@@ -24,21 +24,34 @@
     </ion-content>
   </ion-menu>
 
-  <div id="main-content">
+  <div id="main">
     <ion-header>
       <ion-toolbar>
-        <ion-buttons slot="start">
+        <ion-buttons slot="end">
           <ion-menu-button></ion-menu-button>
         </ion-buttons>
-        <ion-title>Home Page</ion-title>
+        <ion-title><ion-img class="logo" src="http://isoptera.lcsc.edu/~tcherbert/cs480/gwlogo.png"></ion-img></ion-title>
       </ion-toolbar>
     </ion-header>
 
     <!-- Main Content Area. Insert content in here-->
-    <main>
-      <h1>This is a test</h1>
-      
-  </main>
+
+      <header>
+        <ion-img class="centerLogo" src="../../assets/images/landing_logo.png"></ion-img>
+      </header>
+      <main>
+        <section>
+          <form>
+         
+            <ion-input type="text" placeholder="Enter Username" name="uname" required></ion-input>
+          
+            <ion-input type="password" placeholder="Enter Password" name="psw" required></ion-input>
+          
+            <ion-button color="lightred" type="submit" href="/profile">Login</ion-button>
+          </form> 
+        </section>
+      </main>
+    
 
   </div>
 
